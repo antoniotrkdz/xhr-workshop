@@ -3,6 +3,43 @@
 <head>
   <meta charset="utf-8">
   <title>XHR workshop</title>
+  <style>
+    * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    body {
+      font-size: 1.125em;
+    }
+    input,
+    button {
+      height: 2em;
+    }
+    input {
+      padding: 0.5em;
+      font-size: inherit;
+      color: inherit;
+    }
+    button {
+      padding: 0.25em 0.5em;
+      font-size: inherit;
+      background: none;
+      color: white;
+      background-color: tomato;
+      border: none;
+    }
+    .search-results {
+      margin-top: 1em;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    img {
+      height: auto;
+      flex: 0 0 33%;
+      object-fit: cover;
+    }
+
+  </style>
 </head>
 <body>
   <input type="text" class="search-query">
